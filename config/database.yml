@@ -46,5 +46,4 @@ test:
 production:
   <<: *default
   database: db/ask_me_production
-  username: sa
-  password: <%= ENV['SA_DATABASE_PASSWORD'] %>
+  url: <%= ENV['DATABASE_URL'] %>
