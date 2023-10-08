@@ -1,0 +1,24 @@
+.form-text-area,
+.form-number-field {
+  border: 1px solid #d0d0d0;
+  padding: 7.5px 10px;
+  margin: 4px 4px 3px;
+  border-radius: 8px;
+}
+
+.form-text-area:hover,
+.form-number-field:hover {
+  border-color: #8F8F8F;
+  outline-width: 0;
+}
+
+.form-text-area:focus,
+.form-number-field:focus {
+  border-color: #FF7E6B;
+  outline-width: 0;
+}
+
+.form-text-area {
+  box-sizing: border-box;
+  width: 100%;
+}
