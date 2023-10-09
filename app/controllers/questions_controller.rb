@@ -41,7 +41,7 @@ class QuestionsController < ApplicationController
           .permit(:body, :user_id)
   end
 
-  def set_questionаа
+  def set_question
     @question = Question.find(params[:id])
   end
 
