@@ -1,13 +1,31 @@
 .button {
   border: 0;
-  border-radius: 3px;
-  color: #ffffff;
+  border-radius: 3px;          /* скругление */
+  color: #ffffff;              /* цвет текста */
   display:inline-block;
   font-size: 14px;
   padding: 8px 13px 7px;
-  text-decoration: none;
+  user-select: none;           /* убирать выделение текста */
+  text-decoration: none;       /* убирать подчёркивание у ссылок */
 }
 
+
 .button-main {
-  background-color: #FF7E6B;
+  background-color: #FF7E6B;    /* цвет фона */
 }
+
+.button-main:hover { background: #FF927F; } /* при наведении курсора мышки */
+.button-main:active { background: #C3422F; } /* при нажатии */
+
+
+/* Референс цветов кнопки #1
+212,75,56 D44B38
+232,95,76 E85F4C
+152,15,0  980F00
+*/
+
+/* Референс цветов кнопки #2 - current
+255,126,107 FF7E6B
+255,146,127 FF927F
+195,66,47   C3422F
+*/
